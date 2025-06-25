@@ -69,9 +69,8 @@ export default function SignInScreen() {
       <View style={styles.content}>
         <View style={styles.header}>
           <Text style={styles.title}>SurgerySupport.io</Text>
-          <Text style={styles.title}>
-            Welcome back
-            Text style={styles.subtitle}>
+          <Text style={styles.title}>Welcome back</Text>
+          <Text style={styles.subtitle}>
             Sign in to take control of your surgery journey confidently and safely
           </Text>
         </View>
