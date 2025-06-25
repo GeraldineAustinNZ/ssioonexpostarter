@@ -117,7 +117,7 @@ export default function SignInScreen() {
 
         <View style={styles.footer}>
           <Text style={styles.footerText}>
-            Don't have an account?{' '}
+            Don't have an account? Sign up {' '}
             <Link href="/(auth)/sign-up" asChild>
               <Text style={styles.link}>Sign up</Text>
             </Link>
