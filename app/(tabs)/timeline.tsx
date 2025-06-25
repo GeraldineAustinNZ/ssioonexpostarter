@@ -4,20 +4,7 @@ import { useAuth } from '../../hooks/useAuth';
 import { supabase } from '../../lib/supabase';
 import { Card } from '../../components/ui/Card';
 import { LoadingSpinner } from '../../components/ui/LoadingSpinner';
-import { 
-  Calendar, 
-  Clock, 
-  FileText, 
-  CheckCircle, 
-  Circle, 
-  AlertCircle, 
-  ChevronRight, 
-  Hospital, 
-  User, 
-  CalendarClock,
-  ArrowRight,
-  Hourglass
-} from 'lucide-react-native';
+import { Calendar, Clock, FileText, CircleCheck as CheckCircle, Circle, CircleAlert as AlertCircle, ChevronRight, Hospital, User, CalendarClock, ArrowRight, Hourglass } from 'lucide-react-native';
 import { Database } from '../../types/database';
 
 type SurgeryPlan = Database['public']['Tables']['surgery_plans']['Row'];
