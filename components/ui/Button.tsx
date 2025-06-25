@@ -82,13 +82,13 @@ const styles = StyleSheet.create({
     fontWeight: '600',
   },
   primaryText: {
-    color: '#111827',
+    color: '#df3b89',
   },
   secondaryText: {
-    color: '#334155',
+    color: '#df3b89',
   },
   outlineText: {
-    color: '#fef2f2',
+    color: '#df3b89',
   },
   dangerText: {
     color: '#ffffff',
