@@ -125,14 +125,14 @@ export default function ProviderLayout() {
         <Sidebar />
         <View style={styles.mainContent}>
           <Stack screenOptions={{ headerShown: false }}>
-            <Stack.Screen name="index" />
-            <Stack.Screen name="patients" />
-            <Stack.Screen name="[patientId]" />
-            <Stack.Screen name="messages" />
-            <Stack.Screen name="appointments" />
-            <Stack.Screen name="documents" />
-            <Stack.Screen name="analytics" />
-            <Stack.Screen name="settings" />
+            <Stack.Screen name="index" options={{}} />
+            <Stack.Screen name="patients" options={{}} />
+            <Stack.Screen name="[patientId]" options={{}} />
+            <Stack.Screen name="messages" options={{}} />
+            <Stack.Screen name="appointments" options={{}} />
+            <Stack.Screen name="documents" options={{}} />
+            <Stack.Screen name="analytics" options={{}} />
+            <Stack.Screen name="settings" options={{}} />
           </Stack>
         </View>
       </View>
@@ -154,14 +154,14 @@ export default function ProviderLayout() {
 
       <View style={styles.mainContent}>
         <Stack screenOptions={{ headerShown: false }}>
-          <Stack.Screen name="index" />
-          <Stack.Screen name="patients" />
-          <Stack.Screen name="[patientId]" />
-          <Stack.Screen name="messages" />
-          <Stack.Screen name="appointments" />
-          <Stack.Screen name="documents" />
-          <Stack.Screen name="analytics" />
-          <Stack.Screen name="settings" />
+          <Stack.Screen name="index" options={{}} />
+          <Stack.Screen name="patients" options={{}} />
+          <Stack.Screen name="[patientId]" options={{}} />
+          <Stack.Screen name="messages" options={{}} />
+          <Stack.Screen name="appointments" options={{}} />
+          <Stack.Screen name="documents" options={{}} />
+          <Stack.Screen name="analytics" options={{}} />
+          <Stack.Screen name="settings" options={{}} />
         </Stack>
       </View>
 
