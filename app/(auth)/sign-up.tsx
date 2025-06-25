@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, StyleSheet, KeyboardAvoidingView, Platform, ScrollView } from 'react-native';
+import { View, Text, StyleSheet, KeyboardAvoidingView, Platform, ScrollView, Image } from 'react-native';
 import { Link, router } from 'expo-router';
 import { useAuth } from '../../hooks/useAuth';
 import { Input } from '../../components/ui/Input';
@@ -96,6 +96,10 @@ export default function SignUpScreen() {
       <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={false}>
         <View style={styles.content}>
           <View style={styles.header}>
+            <Image
+              source={require('../../public/Icon.png')}
+              style={styles.icon}
+            />
             <Text style={styles.title}>Create Account</Text>
             <Text style={styles.subtitle}>
               Join SurgerySupport.io for personalized care and support
@@ -186,6 +190,11 @@ const styles = StyleSheet.create({
   },
   header: {
     alignItems: 'center',
+    marginBottom: 40,
+  },
+  icon: {
+    width: 80,
+    height: 80,
     marginBottom: 24,
   },
   title: {

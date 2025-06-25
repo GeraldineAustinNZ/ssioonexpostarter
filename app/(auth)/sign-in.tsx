@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, StyleSheet, Alert, KeyboardAvoidingView, Platform } from 'react-native';
+import { View, Text, StyleSheet, Alert, KeyboardAvoidingView, Platform, Image } from 'react-native';
 import { Link, router } from 'expo-router';
 import { useAuth } from '../../hooks/useAuth';
 import { Input } from '../../components/ui/Input';
@@ -68,9 +68,13 @@ export default function SignInScreen() {
     >
       <View style={styles.content}>
         <View style={styles.header}>
+          <Image
+            source={require('../../public/Icon.png')}
+            style={styles.icon}
+          />
           <Text style={styles.title}>SurgerySupport.io</Text>
-          <Text style={styles.title}>Welcome back</Text>
-          <Text style={styles.subtitle}>
+          <Text style={styles.subtitle}>Welcome back</Text>
+          <Text style={styles.description}>
             Sign in to take control of your surgery journey confidently and safely
           </Text>
         </View>
@@ -136,16 +140,28 @@ const styles = StyleSheet.create({
   },
   header: {
     alignItems: 'center',
+    marginBottom: 40,
+  },
+  icon: {
+    width: 80,
+    height: 80,
     marginBottom: 24,
   },
   title: {
     fontSize: 32,
     fontWeight: '700',
     color: '#111827',
-    marginBottom: 12,
+    marginBottom: 8,
     textAlign: 'center',
   },
   subtitle: {
+    fontSize: 24,
+    fontWeight: '600',
+    color: '#111827',
+    marginBottom: 8,
+    textAlign: 'center',
+  },
+  description: {
     fontSize: 16,
     color: '#6b7280',
     textAlign: 'center',
