@@ -1,5 +1,5 @@
 import { Tabs, Redirect } from 'expo-router';
-import { Chrome as Home, User, Settings, MessageCircle, Shield } from 'lucide-react-native';
+import { Chrome as Home, User, MessageCircle, Shield, CalendarClock } from 'lucide-react-native';
 import { useUser } from '../../hooks/useAuth';
 
 export default function TabLayout() {
@@ -36,6 +36,15 @@ export default function TabLayout() {
           title: 'Home',
           tabBarIcon: ({ size, color }) => (
             <Home size={size} color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="timeline"
+        options={{
+          title: 'Timeline',
+          tabBarIcon: ({ size, color }) => (
+            <CalendarClock size={size} color={color} />
           ),
         }}
       />
