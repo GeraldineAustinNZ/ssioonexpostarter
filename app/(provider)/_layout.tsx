@@ -125,14 +125,54 @@ export default function ProviderLayout() {
         <Sidebar />
         <View style={styles.mainContent}>
           <Stack screenOptions={{ headerShown: false }}>
-            <Stack.Screen name="index" />
-            <Stack.Screen name="patients" />
-            <Stack.Screen name="[patientId]" />
-            <Stack.Screen name="messages" />
-            <Stack.Screen name="appointments" />
-            <Stack.Screen name="documents" />
-            <Stack.Screen name="analytics" />
-            <Stack.Screen name="settings" />
+            <Stack.Screen 
+              name="index" 
+              options={{
+                title: 'Dashboard'
+              }} 
+            />
+            <Stack.Screen 
+              name="patients" 
+              options={{
+                title: 'Patients'
+              }} 
+            />
+            <Stack.Screen 
+              name="[patientId]" 
+              options={{
+                title: 'Patient Details'
+              }} 
+            />
+            <Stack.Screen 
+              name="messages" 
+              options={{
+                title: 'Messages'
+              }} 
+            />
+            <Stack.Screen 
+              name="appointments" 
+              options={{
+                title: 'Appointments'
+              }} 
+            />
+            <Stack.Screen 
+              name="documents" 
+              options={{
+                title: 'Documents'
+              }} 
+            />
+            <Stack.Screen 
+              name="analytics" 
+              options={{
+                title: 'Analytics'
+              }} 
+            />
+            <Stack.Screen 
+              name="settings" 
+              options={{
+                title: 'Settings'
+              }} 
+            />
           </Stack>
         </View>
       </View>
@@ -154,14 +194,54 @@ export default function ProviderLayout() {
 
       <View style={styles.mainContent}>
         <Stack screenOptions={{ headerShown: false }}>
-          <Stack.Screen name="index" />
-          <Stack.Screen name="patients" />
-          <Stack.Screen name="[patientId]" />
-          <Stack.Screen name="messages" />
-          <Stack.Screen name="appointments" />
-          <Stack.Screen name="documents" />
-          <Stack.Screen name="analytics" />
-          <Stack.Screen name="settings" />
+          <Stack.Screen 
+            name="index" 
+            options={{
+              title: 'Dashboard'
+            }} 
+          />
+          <Stack.Screen 
+            name="patients" 
+            options={{
+              title: 'Patients'
+            }} 
+          />
+          <Stack.Screen 
+            name="[patientId]" 
+            options={{
+              title: 'Patient Details'
+            }} 
+          />
+          <Stack.Screen 
+            name="messages" 
+            options={{
+              title: 'Messages'
+            }} 
+          />
+          <Stack.Screen 
+            name="appointments" 
+            options={{
+              title: 'Appointments'
+            }} 
+          />
+          <Stack.Screen 
+            name="documents" 
+            options={{
+              title: 'Documents'
+            }} 
+          />
+          <Stack.Screen 
+            name="analytics" 
+            options={{
+              title: 'Analytics'
+            }} 
+          />
+          <Stack.Screen 
+            name="settings" 
+            options={{
+              title: 'Settings'
+            }} 
+          />
         </Stack>
       </View>
 
