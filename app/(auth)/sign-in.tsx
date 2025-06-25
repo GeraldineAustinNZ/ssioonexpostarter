@@ -179,7 +179,7 @@ const styles = StyleSheet.create({
     color: '#6b7280',
   },
   link: {
-    color: '#2563eb',
+    color: '#fef2f2',
     fontWeight: '600',
   },
 });

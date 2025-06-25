@@ -17,7 +17,7 @@ export default function HomeScreen() {
       <View style={styles.content}>
         <Card style={styles.welcomeCard}>
           <View style={styles.cardHeader}>
-            <Heart size={24} color="#2563eb" />
+            <Heart size={24} color="#fef2f2" />
             <Text style={styles.cardTitle}>Your Surgery Journey</Text>
           </View>
           <Text style={styles.cardDescription}>
@@ -30,7 +30,7 @@ export default function HomeScreen() {
           
           <View style={styles.actionsGrid}>
             <Card style={styles.actionCard}>
-              <Calendar size={32} color="#2563eb" />
+              <Calendar size={32} color="#fef2f2" />
               <Text style={styles.actionTitle}>Schedule</Text>
               <Text style={styles.actionDescription}>View your recovery timeline</Text>
             </Card>
