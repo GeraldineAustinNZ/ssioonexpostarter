@@ -27,6 +27,7 @@ function RootLayoutContent() {
 }
 
 export default function RootLayout() {
+  useFrameworkReady();
   return (
     <AuthProvider>
       <RootLayoutContent />
