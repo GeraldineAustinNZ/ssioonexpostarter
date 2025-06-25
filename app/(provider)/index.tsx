@@ -394,7 +394,7 @@ const styles = StyleSheet.create({
   },
   sectionLink: {
     fontSize: 14,
-    color: '#fef2f2',
+    color: '#df3b89',
     fontWeight: '500',
   },
   patientItem: {

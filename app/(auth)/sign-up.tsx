@@ -238,7 +238,7 @@ const styles = StyleSheet.create({
     color: '#6b7280',
   },
   link: {
-    color: '#2563eb',
+    color: '#df3b89',
     fontWeight: '600',
   },
 });
