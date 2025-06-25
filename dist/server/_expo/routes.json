@@ -1,0 +1,139 @@
+{
+  "apiRoutes": [
+    {
+      "file": "_expo/functions/test-users+api.js",
+      "page": "/test-users",
+      "namedRegex": "^/test\\-users(?:/)?$",
+      "routeKeys": {}
+    }
+  ],
+  "htmlRoutes": [
+    {
+      "file": "./(tabs)/index.tsx",
+      "page": "/(tabs)/index",
+      "namedRegex": "^(?:/\\(tabs\\))?(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(provider)/index.tsx",
+      "page": "/(provider)/index",
+      "namedRegex": "^(?:/\\(provider\\))?(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./index.tsx",
+      "page": "/index",
+      "namedRegex": "^/(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/profile.tsx",
+      "page": "/(tabs)/profile",
+      "namedRegex": "^(?:/\\(tabs\\))?/profile(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(auth)/sign-up.tsx",
+      "page": "/(auth)/sign-up",
+      "namedRegex": "^(?:/\\(auth\\))?/sign\\-up(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(auth)/sign-in.tsx",
+      "page": "/(auth)/sign-in",
+      "namedRegex": "^(?:/\\(auth\\))?/sign\\-in(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/timeline.tsx",
+      "page": "/(tabs)/timeline",
+      "namedRegex": "^(?:/\\(tabs\\))?/timeline(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/messages.tsx",
+      "page": "/(tabs)/messages",
+      "namedRegex": "^(?:/\\(tabs\\))?/messages(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(provider)/settings.tsx",
+      "page": "/(provider)/settings",
+      "namedRegex": "^(?:/\\(provider\\))?/settings(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(provider)/patients.tsx",
+      "page": "/(provider)/patients",
+      "namedRegex": "^(?:/\\(provider\\))?/patients(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(provider)/messages.tsx",
+      "page": "/(provider)/messages",
+      "namedRegex": "^(?:/\\(provider\\))?/messages(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "expo-router/build/views/Sitemap.js",
+      "page": "/_sitemap",
+      "namedRegex": "^/_sitemap(?:/)?$",
+      "routeKeys": {},
+      "generated": true
+    },
+    {
+      "file": "./(tabs)/test-auth.tsx",
+      "page": "/(tabs)/test-auth",
+      "namedRegex": "^(?:/\\(tabs\\))?/test\\-auth(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/documents.tsx",
+      "page": "/(tabs)/documents",
+      "namedRegex": "^(?:/\\(tabs\\))?/documents(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(provider)/documents.tsx",
+      "page": "/(provider)/documents",
+      "namedRegex": "^(?:/\\(provider\\))?/documents(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(provider)/analytics.tsx",
+      "page": "/(provider)/analytics",
+      "namedRegex": "^(?:/\\(provider\\))?/analytics(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(auth)/onboarding.tsx",
+      "page": "/(auth)/onboarding",
+      "namedRegex": "^(?:/\\(auth\\))?/onboarding(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(provider)/appointments.tsx",
+      "page": "/(provider)/appointments",
+      "namedRegex": "^(?:/\\(provider\\))?/appointments(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(provider)/[patientId].tsx",
+      "page": "/(provider)/[patientId]",
+      "namedRegex": "^(?:/\\(provider\\))?/(?<patientId>[^/]+?)(?:/)?$",
+      "routeKeys": {
+        "patientId": "patientId"
+      }
+    }
+  ],
+  "notFoundRoutes": [
+    {
+      "file": "./+not-found.tsx",
+      "page": "/+not-found",
+      "namedRegex": "^(?:/(?<notfound>.+?))?(?:/)?$",
+      "routeKeys": {
+        "notfound": "not-found"
+      }
+    }
+  ]
+}
