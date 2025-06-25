@@ -3,10 +3,8 @@ import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { useAuth } from '../hooks/useAuth';
 import { LoadingSpinner } from '../components/ui/LoadingSpinner';
-import { useFrameworkReady } from '@/hooks/useFrameworkReady';
 
 export default function RootLayout() {
-  useFrameworkReady();
   const { loading } = useAuth();
 
   if (loading) {
