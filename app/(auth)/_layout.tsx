@@ -1,7 +1,7 @@
 import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
-import { useAuth, AuthProvider } from '../hooks/useAuth';
-import { LoadingSpinner } from '../components/ui/LoadingSpinner';
+import { useAuth, AuthProvider } from '../../hooks/useAuth';
+import { LoadingSpinner } from '../../components/ui/LoadingSpinner';
 import { useFrameworkReady } from '@/hooks/useFrameworkReady';
 import { useEffect, useState } from 'react';
 
