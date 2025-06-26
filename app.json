@@ -10,7 +10,7 @@
     "icon": "./public/Icon.png",
     "web": {
       "bundler": "metro",
-      "output": "static",
+      "output": "server",
       "favicon": "./public/Favicon.png"
     },
     "ios": {
